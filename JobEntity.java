@@ -2,18 +2,18 @@ package com.xworkz.jobRegistratiton.entity;
 
 public class JobEntity {
 	
-	String name;
-	String email;
-	String phno;
-	String gender;
-	String qualification;
-	String yop;
-	String university;
-	String adress;
-	String skill;
-	String salary;
-	String experience;
-	String idProof;
+	private String name;
+	private String email;
+	private String phno;
+	private String gender;
+	private String qualification;
+	private String yop;
+	private String university;
+	private String adress;
+	private String skill;
+	private String salary;
+	private String experience;
+	private String idProof;
 	
 	public JobEntity() {
 		System.out.println("created jobEntity const");
